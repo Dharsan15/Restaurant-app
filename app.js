@@ -20,6 +20,15 @@ const Header = () => (
   </div>
 );
 
+const CardLayout = () => {
+
+     <div className="restro-card">
+          <img src=""/>
+          
+     </div>
+    
+}
+
 const Body = () => <div className="body"></div>;
 
 const AppLayout = () => <div></div>;
