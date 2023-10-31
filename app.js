@@ -23,8 +23,8 @@ const Header = () => (
 const CardLayout = () => {
 
      <div className="restro-card">
-          <img src=""/>
-          
+            <img src=""/>
+
      </div>
     
 }
