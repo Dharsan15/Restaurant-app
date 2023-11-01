@@ -21,28 +21,22 @@ const Header = () => (
 );
 
 const CardLayout = () => (
-
-     <div className="restro-card">
-     
-            <img src=""/>
-
-     </div>
-    
-)
+  <div className="restro-card">
+    <img src="" />
+  </div>
+);
 
 const Body = () => (
-<div className="body">
-  <div>
-    <input type="search" >search</input>
+  <div className="body">
+    <div>
+      <input type="search">search</input>
+    </div>
+    <Header />
   </div>
-    <Header/>
-
-</div>
-)
+);
 
 //const AppLayout = () => <div></div>;
 
 const root = ReactDOM.createRoot(document.getElementById("main"));
 
-
-root.render(<Body/>);
+root.render(<Body />);
