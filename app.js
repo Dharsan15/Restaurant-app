@@ -20,20 +20,29 @@ const Header = () => (
   </div>
 );
 
-const CardLayout = () => {
+const CardLayout = () => (
 
      <div className="restro-card">
+     
             <img src=""/>
 
      </div>
     
-}
+)
 
-const Body = () => <div className="body"></div>;
+const Body = () => (
+<div className="body">
+  <div>
+    <input type="search" >search</input>
+  </div>
+    <Header/>
 
-const AppLayout = () => <div></div>;
+</div>
+)
+
+//const AppLayout = () => <div></div>;
 
 const root = ReactDOM.createRoot(document.getElementById("main"));
 
 
-root.render(<Header />);
+root.render(<Body/>);
