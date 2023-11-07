@@ -10,7 +10,6 @@ const AppLayout = () => (
       <Header />
       <input type="input" placeholder="search" />
       <Body />
-      
     </React.Fragment>
   </div>
 );
