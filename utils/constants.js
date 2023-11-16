@@ -1,3 +1,4 @@
+
 export const restaurantList = [
     {
       type: "restaurant",
