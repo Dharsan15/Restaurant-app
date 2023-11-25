@@ -58,7 +58,8 @@
 
 /* layout styling */
 
-.restro-list {
+.restro-list 
+{
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
