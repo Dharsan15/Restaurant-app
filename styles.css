@@ -30,7 +30,8 @@
 
 /* restro card styling */
 
-.restro-card {
+.restro-card 
+{
      width: 200px;
     border: 2px solid white;
      background-color: #d3d3d3;
