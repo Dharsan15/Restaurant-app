@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { restaurantList } from "../../utils/constants";
-
 import CardLayout from "./CardLayout";
 
 const Body = () => {
