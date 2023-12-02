@@ -27,4 +27,5 @@ const CardLayout = ({
   </div>
 );
 
+
 export default CardLayout;
