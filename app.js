@@ -5,11 +5,11 @@ import Body from "./src/components/Body";
 
 const AppLayout = () => (
   <div className="app-layout">
-    <React.Fragment>
+    <>
       <Header />
       <input type="input" placeholder="search" />
       <Body />
-    </React.Fragment>
+    </>
   </div>
 );
 
